@@ -64,6 +64,17 @@
             }
         }, {
             toc: {
+                title: 'Dynamic Map Service Layer',
+                description: 'Loads a dynamic map service layer into the map and shows how to bind layer properties such as visibility and opacity to external controls.',
+                url: urlPrefixes.templateHref + 'dynamic-map-service-layer'
+            },
+            route: {
+                path: urlPrefixes.routePath + 'dynamic-map-service-layer',
+                templateUrl: urlPrefixes.routeTemplateUrl + 'dynamic-map-service-layer.html',
+                controller: 'DynamicMapServiceLayerCtrl'
+            }
+        }, {
+            toc: {
                 title: 'Legend',
                 description: 'Show a legend for the map.',
                 url: urlPrefixes.templateHref + 'legend'
